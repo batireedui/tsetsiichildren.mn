@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Tsetsiichildren.mn",
-    "slug": "Tsetsiichildren.mn",
+    "name": "Tsetsiichildren",
+    "slug": "tsetsiichildrenmn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,17 +13,35 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "mn.tsetsiichildren",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "mn.tsetsiichildren"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "55dce2d6-4c8a-488d-8362-f71fff856891"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/55dce2d6-4c8a-488d-8362-f71fff856891"
     }
   }
 }

@@ -21,13 +21,9 @@ const HomeScreen = ({ navigation }) => {
             style={styles.tinyLogo}
             source={require("../../assets/useicon.png")}
           />
-          <Text style={styles.stitle}>Өвөрхангай аймгийн</Text>
-          <Text style={styles.stitle}>Боловсролын газар</Text>
-          <Text style={styles.title}>БАГШ АЙЛЧЛАЛ</Text>
-        </View>
-        <View style={styles.row}>
-          <Text>Хичээлийн жил: </Text>
-          <Text style={styles.item}>2022-2023</Text>
+          <Text style={styles.stitle}>Өмнөговь аймгийн</Text>
+          <Text style={styles.stitle}>Цогтцэций сумын ЗДТГ</Text>
+          <Text style={styles.title}>НЭГДСЭН СУДАЛГАА</Text>
         </View>
         <View style={styles.row}>
           <Text>Сургууль: </Text>

@@ -1,0 +1,1 @@
+export const serverUrl = "http://tsetsiichildren.mn/api/";

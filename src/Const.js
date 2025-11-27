@@ -1,1 +1,1 @@
-export const serverUrl = "http://tsetsiichildren.mn/api/";
+export const serverUrl = "https://tsetsiichildren.mn/api/";

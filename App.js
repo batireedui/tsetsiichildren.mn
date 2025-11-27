@@ -12,7 +12,7 @@ export default function App() {
       <MyContextProvider>
         <Stack.Navigator>
           <Stack.Screen name="LoginScreen" component={LoginScreen} options={{ title: "Нэвтрэх", headerShown: false }} />
-          <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ title: "БАГШ АЙЛЧЛАЛ", headerShown: false }} />
+          <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ title: "НЭГДСЭН СУДАЛГАА", headerShown: false }} />
           <Stack.Screen name="AddScreen" component={AddScreen} options={{ title: "СУДАЛГАА БӨГЛӨХ" }} />
         </Stack.Navigator>
       </MyContextProvider>
